@@ -19,7 +19,7 @@ En .NET Console-applikation för WestCoast Education som hanterar kurser, studen
 - Hantera utbildningsledares information (inklusive anställningsdatum).
 
 ### Administratörsförvaltning
-- Hantera administratörsprofiler (inklusive information om anställningsdatum) och systemoperationer.
+- Hantera administratörsprofiler (inklusive information om anställningsdatum).
 
 ## Projektstruktur
 - **Models/**: Klasser för kurser, studenter, lärare, utbildningsledare och administratörer samt `Storage.cs` och `Menu.cs`.
