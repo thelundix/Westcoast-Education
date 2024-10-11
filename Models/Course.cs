@@ -35,7 +35,7 @@ namespace Westcoast_First.Models;
             Title = title;
             LengthInWeeks = lengthInWeeks;
             StartDate = startDate;
-            EndDate = startDate.AddDays(lengthInWeeks * 7); // Calculate the end date based on length
+            EndDate = startDate.AddDays(lengthInWeeks * 7); 
             IsClassroomCourse = isClassroomCourse;
             Teacher = teacher;
             Students = new List<Student>();
@@ -51,13 +51,13 @@ namespace Westcoast_First.Models;
             }
         }
 
-        // Static methods to create predefined courses
+        /* Static Factory Methods */
+        
         public static Course CreateWebDevelopmentCourse(Teacher teacher)
         {
             return new Course(232, "Introduktion webutveckling", 4, DateTime.Now, false, teacher);
         }
 
-        /* Static Factory Methods */
         public static Course CreateAdvancedJavaScriptCourse(Teacher teacher)
         {
             return new Course(
