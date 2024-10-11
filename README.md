@@ -22,8 +22,8 @@ En .NET Console-applikation för WestCoast Education som hanterar kurser, studen
 - Hantera administratörsprofiler (inklusive information om anställningsdatum).
 
 ## Projektstruktur
-- **Models/**: Klasser för kurser, studenter, lärare, utbildningsledare och administratörer samt `Storage.cs` och `Menu.cs`.
-- **Storage.cs**: Hanterar JSON-lagring.
-- **Menu.cs**: Användarmenyn.
-- **data/**: Innehåller `courses.json`.
+- **Models/**: Klasser för kurser, studenter, lärare, utbildningsledare och administratörer samt Storage.cs och Menu.cs.
+  - **Storage.cs**: Hanterar JSON-lagring.
+  - **Menu.cs**: Användarmenyn.
+- **data/**: Innehåller courses.json. Denna fil läses och skrivs till under körningen av programmet för att spara och ladda kurser.
 - **Program.cs**: Huvudprogrammet som kopplar ihop alla funktioner.
